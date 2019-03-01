@@ -22,11 +22,11 @@ $("ul").on("click","span",function(){
 var inp = document.querySelector(".fas");
 inp.addEventListener("click",function(){
     if (u == 0){
-        $('input').hide();
+        $('input').fadeOut(500);
         u = 1;
     }
     else{
-        $("input").show();
+        $("input").fadeIn(500);
         u = 0;
     }
     
