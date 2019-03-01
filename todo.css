@@ -1,0 +1,103 @@
+.f{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 15px;
+    color:blueviolet;
+    margin-top:90px;
+    /* margin-bottom: 60px; */
+    text-decoration: underline;
+    font-size: 55px;
+}
+.chiggi{
+    border:3px solid gray;
+    width:40%;
+    margin:11% auto;
+    /* margin-top : 100px; */
+    background: #f7f7f7;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.6);
+    /* height:400px; */
+}
+.g{
+    color:gray;
+    text-decoration:line-through;
+}
+.chiggi>h1{
+    background: rgb(0, 153, 255);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:rgb(255, 255, 255);
+    padding:10px 0px 10px 20px;
+}
+.chiggi>input{
+    background:rgb(230, 225, 225);
+    border: none;
+    width:100%;
+    padding:10px 0px 5px 20px;
+    font-size:20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color:rgb(255, 9, 202);
+}
+input:focus{
+    outline: none;
+    background: white;
+    border:3px dotted rgb(205, 169, 50);
+}
+.chiggi>::-webkit-input-placeholder{
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 30px;
+    color:rgb(241, 8, 163);
+    /* padding-left:20px; */
+}
+.fas{
+    float: right;
+    margin-right: 10px;
+}
+
+body{
+    background: #16A085;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+ul{
+    list-style: none;
+    margin :0px;
+    padding: 0px;
+}
+li{
+    background: white;
+    height:28px;
+}
+li:nth-child(2n){
+    background: rgb(209, 233, 235);
+}
+span{
+    background:red;
+    color: white;
+    width:0px;
+    margin-right: 23px;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    opacity:0;
+}
+li:hover span{
+    width:35px;
+    transition: all 0.5s;
+    opacity: 1;
+}
+footer{
+    text-align: center;
+    background: #603813;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width:100%;
+    padding : 10px 0px 10px 0px;
+    height: 20px;
+}
+
